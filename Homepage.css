@@ -1,0 +1,67 @@
+:root {
+  turquoise: #07beb8;
+  bright-orange: #ff6501;
+  charcoal: #272727;
+}
+
+/* Text styles */
+
+  h1 {
+    font-family: SVN-Gotham;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 0.34;
+    text-align: left;
+  }
+
+  h2 {
+    font-family: SVN-Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 0.92;
+    text-align: center;
+    color: #272727;
+    color: var(--charcoal);
+  }
+
+  h3 {
+    font-family: SVN-Gotham;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.63;
+    text-align: left;
+  }
+
+  p2 {
+    font-family: SVN-Gotham;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0.79;
+    text-align: center;
+  }
+
+  p1 {
+    font-family: SVN-Gotham;
+    font-size: 24px;
+    line-height: 1.38;
+    text-align: left;
+    color: #272727;
+    color: var(--charcoal);
+  }
+
+  s1 {
+    font-family: SVN-Gotham;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  s2 {
+    font-family: SVN-Gotham;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: left;
+    color: #272727;
+    color: var(--charcoal);
+  }
+
