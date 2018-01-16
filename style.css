@@ -1,7 +1,7 @@
 /* global styles */
 
 body {
-    margin: auto; 
+    margin: 7px auto; 
 }
   h1 {
     font-family:'Montserrat', sans-serif;
@@ -15,17 +15,16 @@ body {
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
      font-size: 20px;
-     width: 200px;
+     width: 180px;
      height: 50px;
      border-radius: 10px;
      background-color: #07beb8;
      color: white; 
    } 
 
-    .Help {
+  .Help {
       width: 52px;
       height: 22px;
-      padding-top: 200px;
       font-family: 'Montserrat', sans-serif;
       font-size: 20px;
       font-weight: normal;
@@ -37,10 +36,11 @@ body {
       color: #07beb8;
     }
 
-    .LOGO {
+  .LOGO {
       width: 167px;
       height: 41px;
       color: #07beb8;
+      font-weight: bold;
     }
 
   h2 {
@@ -153,6 +153,8 @@ body {
   .Its-free {
       padding-top: 90px;
       padding-left: 20px;
+      padding-bottom:0;
+      margin-bottom:0;
       width: 170px;
       height: 20px;
       font-family: 'Montserrat', sans-serif;
@@ -173,4 +175,24 @@ body {
       border-radius: 10px;
       background-color: #04726e;
       z-index: 1;
+}
+
+.Make-connections-text {
+      display: block; 
+      padding: 10px 0; 
+      margin: 0 0 20px 0; 
+      font-size: 17.5px; 
+      line-height: 1.5; 
+      text-align: left; 
+      box-sizing: border-box;
+      float: right; 
+}
+
+.icons {
+      display: block; 
+      padding: 10px 0;
+      margin: 0 0; 
+      width: 62px; 
+      height: 84px; 
+      float: right; 
 }
