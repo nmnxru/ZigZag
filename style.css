@@ -71,12 +71,12 @@
     text-align: center;
   }
 
-  p2 {
+   p2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    line-height: 1.38;
+    line-height: 0.79;
     text-align: left;
-    color: #272727;
+  }
   }
 
   s1 {
@@ -217,12 +217,22 @@ s3 {
 }
 
 .form-styling {
-  margin-top: 35px; 
+  margin-top: 25px; 
 }
 
 .Shape-1-copy {
-  width: 231px;
+  width: 120px;
   height: 2px;
   background-color: #cccccc;
   border: solid 1px #cccccc;
+  margin-top: 8px; 
+}
+
+.link-color {
+  color: #ff6501;
+  text-decoration: underline;
+}
+
+.spacing {
+  margin-top: 10px; 
 }
