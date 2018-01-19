@@ -75,15 +75,16 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 0.79;
-    text-align: left;
-  }
-  }
-
-  s1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
     text-align: center;
+  }
+ 
+  s1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: bold; 
+    text-align: center;
+    color: #272727;
   }
 
   s2 {
@@ -221,11 +222,27 @@ s3 {
 }
 
 .Shape-1-copy {
-  width: 120px;
+  width: 115px;
   height: 2px;
   background-color: #cccccc;
   border: solid 1px #cccccc;
-  margin-top: 8px; 
+  margin-top: 8px;
+  margin-right: 20px;
+  padding: 0; 
+  float: left;
+  border: 0; 
+}
+
+.Shape-2-copy {
+  width: 115px;
+  height: 2px;
+  background-color: #cccccc;
+  border: solid 1px #cccccc;
+  margin-top: 8px;
+  margin-left: 20px;
+  padding: 0; 
+  float: left;
+  border: 0; 
 }
 
 .link-color {
@@ -235,4 +252,21 @@ s3 {
 
 .spacing {
   margin-top: 10px; 
+}
+
+.float {
+  float: left; 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+}
+
+.sign-up-email {
+  position: relative; 
+  float: left; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  margin: 20px 0 5px 0;
+  font-weight: bold; 
 }
