@@ -2,7 +2,7 @@
 
   h1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: bold;
     line-height: 1.0;
     text-align: left;
@@ -12,19 +12,26 @@
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
      font-size: 20px;
-     width: 180px;
-     height: 50px;
      border-radius: 10px;
+     width: 100%; 
+     min-width: 50px; 
+     max-width: 150px; 
+     height: 100%; 
+     min-height: 40px; 
+     max-height: 80px; 
      background-color: #07beb8;
      color: white; 
      float: right; 
      margin-top: 5px; 
-     margin-right: 30px; 
+     margin-right: 30px;
+     margin-bottom: 10px; 
+     margin-left: 20px; 
+     position: relative; 
    } 
 
   .Help {
       font-family: 'Montserrat', sans-serif;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -34,21 +41,26 @@
       color: #07beb8;
       text-decoration: underline; 
       float: right; 
-      margin-top: 5px; 
-      margin-right: auto; 
+      margin-top: 6px;
+      margin-bottom: 0; 
+      margin-right: 30px; 
     }
 
   .LOGO {
       width: 167px;
-      height: 41px;
       color: #07beb8;
       font-weight: bold;
       float: left; 
+      margin-bottom: 5px; 
+      margin-top: 12px; 
+      margin-left: auto; 
+      margin-right: 50px; 
+      position: relative;
     }
 
   h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 30;
     line-height: 0.92;
     text-align: center;
@@ -89,8 +101,8 @@
 
   s2 {
     font-family:'Montserrat', sans-serif;
-    font-size: 17px;
-    line-height: 1.5;
+    font-size: 16.5px;
+    line-height: 1.4;
     text-align: left;
     color: #272727;
   }
@@ -120,8 +132,8 @@ s3 {
 /* Homepage */
 
   .a-network-text {
-      width: 450px;
-      height: 280px;
+      max-width: 450px;
+      max-height: 280px;
       margin-top: 0; 
       padding-top: 0;
       border-top: 0;
@@ -138,25 +150,32 @@ s3 {
 }
  
   .join-now-btn {
-      width: 190px;
-      height: 60px;
+      width: 100%; 
+      max-width: 160px;
+      min-width: 90px; 
+      height: 100%; 
+      max-height: 75px;
+      min-height: 55px; 
       border-radius: 20px;
       background-color: #ff6501;
+      margin-bottom: auto; 
       border: solid 4px #ffffff;
       font-family:'Montserrat', sans-serif;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: bold;
       line-height: 0.63;
       text-align: center;
       float: left; 
+      position: relative; 
 }
 
   .or-learn-more { 
-      padding: 25px 0;
-      width: 170px;
-      height: 28px;
+      padding: 20px 0;
       color: #ffffff;
-      float: left; 
+      float: left;
+      text-align: left; 
+      position: relative; 
+      margin: auto; 
 }
 
   .learn-more-link{
@@ -166,21 +185,19 @@ s3 {
 }
 
   .Its-free {
-      padding-top: 80px;
+      padding-top: 7px; 
       padding-left: 20px;
-      padding-bottom:0;
-      margin-bottom: 100px; 
-      width: 170px;
-      height: 20px;
       font-family: 'Montserrat', sans-serif;
-      font-size: 36px;
+      font-size: 34px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
       line-height: 0.53;
       letter-spacing: normal;
       text-align: left;
-      color: #ffffff;
+      color: #ffffff; 
+      float: left; 
+      position: relative; 
 }
 
   .Rounded-Rectangle-6 {
@@ -192,22 +209,81 @@ s3 {
       z-index: 1;
 }
 
+.About-us-text {
+     transform: translate(0, -30%);
+}
 .Make-connections-text {
       display: block; 
       padding: 10px 0; 
-      margin: 0 0 20px 0; 
-      text-align: justify; 
+      margin: 0 0 20px 0;  
       box-sizing: border-box;
+      font-stretch: condensed; 
       float: right; 
+      position: relative; 
+      left: 60%; 
+      top: 30%; 
+      transform: translate(-53%, -20%);
 }
 
-.icons {
-      margin: auto;   
+.Get-familiar-text {
+      display: block; 
+      padding: 10px 0; 
+      margin: 0 0 20px 0; 
+      box-sizing: border-box;
+      float: right; 
+      position: relative; 
+      left: 45%; 
+      top: 30%; 
+      transform: translate(-57%, -20%);
+}
+
+.Exclusive-for-text {
+      display: block; 
+      padding: 10px 0; 
+      margin: 0 0 20px 0; 
+      box-sizing: border-box;
+      float: right; 
+      position: relative; 
+      left: 45%; 
+      top: 30%; 
+      transform: translate(-75%, -20%);
+}
+
+.icon1 {
+      margin: auto; 
+      display: block; 
+      max-width: 61px; 
+      max-height: 85px; 
+      float: right;  
+      position: relative; 
+      left: 85%; 
+      top: 30%; 
+      transform: translate(-25%, -15%);
+}
+
+.icon2 {
+      margin: auto; 
+      display: block; 
+      max-width: 55px; 
+      max-height: 85px; 
+      float: right;  
+      position: relative; 
+      left: 20%; 
+      top: 30%; 
+      transform: translate(-70%, -15%);
+}
+
+.icon3 {
+      margin: auto; 
+      display: block; 
       max-width: 59px; 
       max-height: 85px; 
       float: right;  
+      position: relative; 
+      left: 1%; 
+      top: 30%; 
+      transform: translate(-120%, -15%);
 }
-
 /* Sign Up page */
 
 .Shape-1 {
@@ -222,7 +298,8 @@ s3 {
 }
 
 .Shape-1-copy {
-  width: 110px; 
+  width: 30%; 
+  max-width: 110px; 
   height: 2px;
   background-color: #cccccc;
   border: solid 1px #cccccc;
@@ -232,19 +309,28 @@ s3 {
   float: left;
   border: 0; 
   position: relative; 
+  top: 70%; 
+  left: 3%; 
+  transform: translate (-20%, 20%);
+  display: block; 
 }
 
 .Shape-2-copy {
-  width: 110px; 
-  height: 2px;
   background-color: #cccccc;
   border: solid 1px #cccccc;
+  width: 30%; 
+  max-width: 110px; 
+  height: 2px;
   margin-top: 8px;
   margin-left: 20px;
   padding: 0; 
   float: left;
   border: 0; 
   position: relative; 
+  top: 70%; 
+  left: 1%; 
+  transform: translate (-20%, 20%); 
+  display: block; 
 }
 
 .link-color {
@@ -262,6 +348,9 @@ s3 {
   padding: 0; 
   border: 0; 
   position: relative; 
+  top: 50%;
+  left: 2.5%;
+  transform: translate(-20%, -20%); 
 }
 
 .sign-up-email {
@@ -283,4 +372,22 @@ s3 {
   left: 30%; 
   transform: translate(-50%, -50%);
   margin: 15px 0 5px 0;
+}
+
+.dont-have-account {
+  position: relative; 
+  float: left; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  margin: 15px 0 5px 0;
+}
+
+/* How It Works Page */
+
+.how-it-works {
+    text-align: center; 
+    top: 20%; 
+    transform: translate(0, -170%); 
+    position: relative; 
 }
