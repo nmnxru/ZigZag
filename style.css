@@ -1,50 +1,21 @@
-/* viewport-sized typography */
-
-@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
-  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
-  $dimension: if(unit($responsive) == 'vh', 'height', 'width');
-  $min-breakpoint: $min / $responsive-unitless * 100;
-  
-  @media (max-#{$dimension}: #{$min-breakpoint}) {
-    font-size: $min;
-  }
-  
-  @if $max {
-    $max-breakpoint: $max / $responsive-unitless * 100;
-    
-    @media (min-#{$dimension}: #{$max-breakpoint}) {
-      font-size: $max;
-    }
-  }
-  
-  @if $fallback {
-    font-size: $fallback;
-  }
-  
-  font-size: $responsive;
-}
-
 /* global styles */
 
   h1 {
     font-family:'Montserrat', sans-serif;
-    @include responsive-font (3vw, 20px, 56px); 
+    font-size: 5vmin;  
     font-weight: bold;
     line-height: 1.0;
     text-align: left;
+    float: left; 
   }
 
  .log-in-btn {
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
-     @include responsive-font (3vw, 8px, 20px); 
-     border-radius: 10px;
-     width: 100%; 
-     min-width: 50px; 
-     max-width: 150px; 
-     height: 100%; 
-     min-height: 40px; 
-     max-height: 80px; 
+     font-size: 1.5vw; 
+     border-radius: 0.6vw;
+     width: 12vw;  
+     height: 3vw; 
      background-color: #07beb8;
      color: white; 
      float: right; 
@@ -57,7 +28,7 @@
 
   .Help {
       font-family: 'Montserrat', sans-serif;
-      @include responsive-font(3vw, 8px, 18px); 
+      font-size: 1.5vw;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -67,13 +38,12 @@
       color: #07beb8;
       text-decoration: underline; 
       float: right; 
-      margin-top: 6px;
+      margin-top: 10px;
       margin-bottom: 0; 
       margin-right: 30px; 
     }
 
   .LOGO {
-      width: 167px;
       color: #07beb8;
       font-weight: bold;
       float: left; 
@@ -86,8 +56,8 @@
 
   h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 30;
+    font-size: 4.9vmin;
+    font-weight: normal;
     line-height: 0.92;
     text-align: center;
     color: #272727;
@@ -95,15 +65,15 @@
 
   h3 {
     font-family:'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 3.5vw;
     font-weight: bold;
     line-height: 0.63;
-    text-align: left;
+    text-align: center;
   }
 
   p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 3vmin; 
     font-weight: bold;
     line-height: 0.79;
     text-align: center;
@@ -111,14 +81,14 @@
 
    p2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.4vw;
     line-height: 1;
     text-align: center;
   }
  
   s1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 1.2vw;
     line-height: 1.5;
     font-weight: bold; 
     text-align: center;
@@ -127,7 +97,7 @@
 
   s2 {
     font-family:'Montserrat', sans-serif;
-    font-size: 16.5px;
+    font-size: 1.3vw;
     line-height: 1.4;
     text-align: left;
     color: #272727;
@@ -135,15 +105,12 @@
 
 s3 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 13px;
+    font-size: 1vw;
     line-height: 1.5;
     text-align: justify;
     color: #272727;
 }
 
-  turquoise: #07beb8;
-  bright-orange: #ff6501;
-  charcoal: #272727;
 
 /* Homepage */
 
@@ -165,23 +132,23 @@ s3 {
 }
  
   .join-now-btn {
-      width: 100%; 
-      max-width: 160px;
-      min-width: 90px; 
-      height: 100%; 
-      max-height: 75px;
-      min-height: 55px; 
-      border-radius: 20px;
+      width: 15vw; 
+      height: 4.5vw;  
+      border-radius: 1.5vw;
       background-color: #ff6501;
       margin-bottom: auto; 
-      border: solid 4px #ffffff;
+      border: solid 0.25vw #ffffff;
       font-family:'Montserrat', sans-serif;
-      @include responsive-font (3vw, 10px, 22px); 
+      font-size: 2vw; 
       font-weight: bold;
       line-height: 0.63;
       text-align: center;
       float: left; 
       position: relative; 
+}
+
+.button-link {
+    color: white; 
 }
 
   .or-learn-more { 
@@ -190,7 +157,7 @@ s3 {
       float: left;
       text-align: left; 
       position: relative; 
-      margin: auto; 
+      margin: auto;  
 }
 
   .learn-more-link{
@@ -202,102 +169,70 @@ s3 {
   .Its-free {
       padding-top: 7px; 
       padding-left: 20px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 34px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
       line-height: 0.53;
-      letter-spacing: normal;
       text-align: left;
-      color: #ffffff; 
+      color: white; 
       float: left; 
       position: relative; 
 }
 
-  .Rounded-Rectangle-6 {
-      width: 700px;
-      min-height:350px;
-      opacity: 0.5;
-      border-radius: 10px;
-      background-color: #04726e;
-      z-index: 1;
-}
-
 .About-us-text {
-     transform: translate(0, -30%);
+      position: relative; 
+      display: block;  
 }
 .Make-connections-text {
-      display: block; 
-      padding: 10px 0; 
-      margin: 0 0 20px 0;  
+      display: inline-block; 
+      padding: 0; 
+      margin: 0 0 0 -1.5vw;  
       box-sizing: border-box;
       font-stretch: condensed; 
-      float: right; 
+      float: left; 
       position: relative; 
-      left: 60%; 
-      top: 30%; 
-      transform: translate(-53%, -20%);
 }
 
 .Get-familiar-text {
-      display: block; 
-      padding: 10px 0; 
-      margin: 0 0 20px 0; 
+      display: inline-block; 
+      padding: 0; 
+      margin: 0 0 0 -4vw; 
       box-sizing: border-box;
-      float: right; 
+      float: left; 
       position: relative; 
-      left: 45%; 
-      top: 30%; 
-      transform: translate(-57%, -20%);
 }
 
 .Exclusive-for-text {
-      display: block; 
-      padding: 10px 0; 
-      margin: 0 0 20px 0; 
+      display: inline-block; 
+      padding: 0; 
+      margin: 0 0 0 -4.5vw; 
       box-sizing: border-box;
-      float: right; 
+      float: left; 
       position: relative; 
-      left: 45%; 
-      top: 30%; 
-      transform: translate(-75%, -20%);
 }
 
 .icon1 {
-      margin: auto; 
-      display: block; 
-      max-width: 61px; 
-      max-height: 85px; 
-      float: right;  
+      margin: 0; 
+      display: inline-block;
+      max-width: 4.7vw; 
+      max-height: 5vw; 
+      float: left;  
       position: relative; 
-      left: 85%; 
-      top: 30%; 
-      transform: translate(-25%, -15%);
 }
 
 .icon2 {
-      margin: auto; 
-      display: block; 
-      max-width: 55px; 
-      max-height: 85px; 
-      float: right;  
-      position: relative; 
-      left: 20%; 
-      top: 30%; 
-      transform: translate(-70%, -15%);
+      margin: 0 0 0 -2vw; 
+      display: inline-block;  
+      max-width: 4vw; 
+      max-height: 6vw; 
+      float: left;  
+      position: relative;       
 }
 
 .icon3 {
-      margin: auto; 
-      display: block; 
-      max-width: 59px; 
-      max-height: 85px; 
-      float: right;  
+      margin: 0 0 0 -3vw; 
+      display: inline-block; 
+      max-width: 4.6vw; 
+      max-height: 5vw; 
+      float: left;  
       position: relative; 
-      left: 1%; 
-      top: 30%; 
-      transform: translate(-120%, -15%);
 }
 /* Sign Up page */
 
@@ -378,6 +313,30 @@ s3 {
   font-weight: bold; 
 }
 
+.join-now-btn2 {
+     font-family: 'Montserrat', sans-serif; 
+     font-weight: bold;
+     font-size: 1.3vw; 
+     border-radius: 0.6vw;
+     width: 12vw;  
+     height: 3vw; 
+     background-color: #07beb8;
+     color: white; 
+     margin-top: 7px; 
+     position: relative;
+     display: block; 
+     box-sizing: border-box;  
+     left: 50%; 
+     transform: translate(-50%, 0);
+   } 
+
+.i-agree {
+     position: relative;
+     display: block; 
+     box-sizing: border-box;  
+     left: 25%; 
+     transform: translate(-25%, 0);  
+}
 /* Sign In Page */
 
 .forgot-password {
@@ -403,6 +362,27 @@ s3 {
 .how-it-works {
     text-align: center; 
     top: 20%; 
-    transform: translate(0, -170%); 
-    position: relative; 
+    transform: translate(0, -250%); 
+    position: relative;
+    font-weight: bold; 
+}
+
+
+.Every-month-text {
+      display: inline-block; 
+      padding: 0; 
+      margin: 0; 
+      box-sizing: border-box;
+      float: left; 
+      position: relative; 
+}
+
+.box {
+    margin: 50px; 
+    width: 50vmin;  
+    height: 30vmin;
+    border-color: #07beb8;  
+    border: solid 3px; 
+    border-color: #07beb8; 
+    align-content: center;
 }
