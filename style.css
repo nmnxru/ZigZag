@@ -263,8 +263,25 @@ s3 {
       position: relative; 
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 545px) {
     
+     .a-network-text {
+      margin-top: 6vh; 
+      padding-top: 0;
+      border-top: 0;
+      margin-bottom: 3vh; 
+      line-height: 1.2
+}
+.or-learn-more { 
+      padding: 0 0 0 0.5rem;  
+      margin: 1.5vh 0 2vh 0;
+      text-shadow: 1.4px 1.4px 1px #272727; 
+}
+     .Its-free {
+      padding-top: 1.7rem;
+      padding-bottom: 5rem;
+      text-shadow: 1.4px 1.4px 1px #272727; 
+}
    .text-box {
       margin: 6px 2px 4px 1px;
       padding: 1px 7px; 
@@ -519,7 +536,7 @@ s3 {
 }
 }
 
-@media screen and (min-width: 539px) {
+@media screen and (min-width: 545px) {
     html {
         font-size: 2vw; 
     }
