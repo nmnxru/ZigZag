@@ -1,9 +1,13 @@
 /* global styles */
 
+html {
+    font-size: 1vw; 
+}
+
   h1 {
-    font-family:'Montserrat', sans-serif;
-    font-size: 5vmin;  
-    font-weight: bold;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 4rem; 
+    font-weight: bold; 
     line-height: 1.0;
     text-align: left;
     float: left; 
@@ -12,23 +16,23 @@
  .log-in-btn {
      font-family: 'Montserrat', sans-serif; 
      font-weight: bold;
-     font-size: 1.5vw; 
+     font-size: 1.5rem; 
      border-radius: 0.6vw;
-     width: 12vw;  
-     height: 3vw; 
+     width: 100%;  
+     height: 60%; 
      background-color: #07beb8;
      color: white; 
      float: right; 
-     margin-top: 5px; 
-     margin-right: 30px;
-     margin-bottom: 10px; 
-     margin-left: 20px; 
+     margin-top: 1vh; 
+     margin-right: 2vw;
+     margin-bottom: 1.5vh; 
+     margin-left: 1vw; 
      position: relative; 
    } 
 
   .Help {
       font-family: 'Montserrat', sans-serif;
-      font-size: 1.5vw;
+      font-size: 1.5rem;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
@@ -38,25 +42,25 @@
       color: #07beb8;
       text-decoration: underline; 
       float: right; 
-      margin-top: 10px;
+      margin-top: 1.5rem;
       margin-bottom: 0; 
-      margin-right: 30px; 
+      margin-right: 2rem; 
     }
 
   .LOGO {
       color: #07beb8;
       font-weight: bold;
       float: left; 
-      margin-bottom: 5px; 
-      margin-top: 12px; 
+      margin-bottom: 1rem; 
+      margin-top: 1rem; 
       margin-left: auto; 
-      margin-right: 50px; 
+      margin-right: auto; 
       position: relative;
     }
 
   h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4.9vmin;
+    font-size: 2.5rem; 
     font-weight: normal;
     line-height: 0.92;
     text-align: center;
@@ -65,15 +69,14 @@
 
   h3 {
     font-family:'Montserrat', sans-serif;
-    font-size: 3.5vw;
     font-weight: bold;
     line-height: 0.63;
     text-align: center;
   }
 
   p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3vmin; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.2rem; 
     font-weight: bold;
     line-height: 0.79;
     text-align: center;
@@ -81,14 +84,12 @@
 
    p2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.4vw;
-    line-height: 1;
+    font-size: 1.7rem; 
     text-align: center;
   }
  
   s1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 1.2vw;
     line-height: 1.5;
     font-weight: bold; 
     text-align: center;
@@ -97,7 +98,7 @@
 
   s2 {
     font-family:'Montserrat', sans-serif;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     line-height: 1.4;
     text-align: left;
     color: #272727;
@@ -118,7 +119,7 @@ s3 {
       margin-top: 0; 
       padding-top: 0;
       border-top: 0;
-      margin-bottom: 40px; 
+      margin-bottom: 1.5vh; 
       font-family:'Montserrat', sans-serif;
       font-weight: bold;
       font-style: normal;
@@ -132,14 +133,14 @@ s3 {
 }
  
   .join-now-btn {
-      width: 15vw; 
-      height: 4.5vw;  
-      border-radius: 1.5vw;
+      width: 3vw; 
+      height: 4vh;  
+      border-radius: 1rem;
       background-color: #ff6501;
       margin-bottom: auto; 
-      border: solid 0.25vw #ffffff;
+      border: solid 0.2rem #ffffff;
       font-family:'Montserrat', sans-serif;
-      font-size: 2vw; 
+      font-size: 2rem; 
       font-weight: bold;
       line-height: 0.63;
       text-align: center;
@@ -152,7 +153,7 @@ s3 {
 }
 
   .or-learn-more { 
-      padding: 20px 0;
+      padding: 0 0 0 0.5rem; 
       color: #ffffff;
       float: left;
       text-align: left; 
@@ -167,8 +168,9 @@ s3 {
 }
 
   .Its-free {
-      padding-top: 7px; 
-      padding-left: 20px;
+      padding-top: 1.5rem;
+      padding-bottom: 1rem; 
+      padding-left: 2rem;
       line-height: 0.53;
       text-align: left;
       color: white; 
@@ -180,59 +182,164 @@ s3 {
       position: relative; 
       display: block;  
 }
-.Make-connections-text {
-      display: inline-block; 
-      padding: 0; 
-      margin: 0 0 0 -1.5vw;  
-      box-sizing: border-box;
-      font-stretch: condensed; 
-      float: left; 
-      position: relative; 
+
+.text-box {
+    display: inline-block;  
+    margin: 0; 
+    padding: 0; 
+    border-top: 0; 
+    width: 17vw; 
+    height: 10vh; 
+    box-sizing: border-box;  
+    float: left; 
+    position: relative;
+}
+
+.icon-box {
+    display: inline-block; 
+    margin: 0 0 0 2.5vw; 
+    padding: 0; 
+    width: 7vw; 
+    height: 8vw; 
+    float: left; 
+    position: relative; 
+}
+
+.Make-connections-text {    
+    position: relative; 
+    display: block; 
+    text-align: justify;
+    padding: 0; 
+    margin: 0 1vw 1vh -1.5vw; 
+    box-sizing: border-box;
+    float: left; 
+    position: relative;
 }
 
 .Get-familiar-text {
-      display: inline-block; 
-      padding: 0; 
-      margin: 0 0 0 -4vw; 
-      box-sizing: border-box;
-      float: left; 
-      position: relative; 
+    text-align: justify; 
+    display: block;  
+    padding: 0; 
+    margin: 0 1vw 1vh -3.5vw; 
+    box-sizing: border-box;
+    float: left; 
+    position: relative;
 }
 
 .Exclusive-for-text {
-      display: inline-block; 
+      display: block; 
       padding: 0; 
-      margin: 0 0 0 -4.5vw; 
+      margin: 0 1vw 0 -3vw; 
       box-sizing: border-box;
       float: left; 
-      position: relative; 
+      position: relative;
+      text-align: justify; 
 }
 
 .icon1 {
       margin: 0; 
       display: inline-block;
-      max-width: 4.7vw; 
-      max-height: 5vw; 
+      width: 5vw; 
+      height: 4.5vw; 
       float: left;  
       position: relative; 
 }
 
 .icon2 {
-      margin: 0 0 0 -2vw; 
+      margin: 0 0 0 -1.5vw; 
       display: inline-block;  
-      max-width: 4vw; 
-      max-height: 6vw; 
+      width: 4vw; 
+      height: 4.3vw; 
       float: left;  
       position: relative;       
 }
 
 .icon3 {
-      margin: 0 0 0 -3vw; 
+      margin: 0 0 0 -2vw; 
       display: inline-block; 
-      max-width: 4.6vw; 
-      max-height: 5vw; 
+      width: 4.6vw; 
+      height: 4.5vw; 
       float: left;  
       position: relative; 
+}
+
+@media only screen and (max-width: 540px) {
+    
+   .text-box {
+      margin: 6px 2px 4px 1px;
+      padding: 1px 7px; 
+      width: 60vw;  
+      height: 10vh; 
+      display: block;
+    }
+    
+    .icon-box {
+      margin: 17px 4px 0 6px; 
+      width: 36px;
+      height: 30px; 
+      float: left; 
+      position: relative; 
+    }
+
+.Make-connections-text {    
+    margin: 0; 
+    width: 100%; 
+    height: 100%;  
+    display: block;
+    position: relative;
+    float: right; 
+    text-align: justify; 
+    vertical-align: middle; 
+ }
+
+.Get-familiar-text {
+    margin: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: block; 
+    position: relative; 
+    float: right; 
+    text-align: justify; 
+    vertical-align: middle; 
+ }
+
+.Exclusive-for-text {
+      display: block; 
+      padding: 0; 
+      margin: 0; 
+      box-sizing: border-box;
+      float: left; 
+      position: relative;
+      text-align: justify;
+      vertical-align: middle; 
+ }
+
+.icon1 {
+      margin: 0; 
+      display: inline-block;
+      width: 10vw; 
+      height: 10vw; 
+      float: left;  
+      position: relative; 
+ }
+
+.icon2 {
+      margin: 1px 0; 
+      display: inline-block;  
+      width: 8vw; 
+      height: 9vw; 
+      float: left;  
+      position: relative;       
+ }
+
+.icon3 {
+      margin: 2.4px 0; 
+      display: inline-block; 
+      width: 9.5vw; 
+      height: 9.5vw; 
+      float: left;  
+      position: relative; 
+ }
 }
 /* Sign Up page */
 
@@ -386,3 +493,61 @@ s3 {
     border-color: #07beb8; 
     align-content: center;
 }
+
+@media screen and (min-width:320px) {
+    html {
+       font-size: 2.5vw; 
+    }
+    
+      .log-in-btn {
+     font-size: 1.5rem; 
+     border-radius: 6px;
+     width: 100px;  
+     height: 25px; 
+     margin-top: 1vh; 
+     margin-right: 2vw;
+     margin-bottom: 1.5vh; 
+     margin-left: 1vw; 
+   } 
+     
+    .join-now-btn {
+      width: 120px; 
+      height: 40px;  
+      border-radius: 10px; 
+      border: solid 2px #ffffff;
+      font-size: 1.9rem; 
+}
+}
+
+@media screen and (min-width: 539px) {
+    html {
+        font-size: 2vw; 
+    }
+}
+
+@media screen and (min-width: 767px) {
+    html {
+        font-size: 1vw; 
+    }
+    
+     .log-in-btn {
+     font-size: 1.5rem; 
+     border-radius: 10px;
+     width: 170px;  
+     height: 37px; 
+     margin-top: 1vh; 
+     margin-right: 2vw;
+     margin-bottom: 1.5vh; 
+     margin-left: 1vw; 
+   } 
+    
+  .join-now-btn {
+      width: 180px; 
+      height: 50px;  
+      border-radius: 10px; 
+      border: solid 4px #ffffff;
+      font-size: 2rem; 
+}
+}
+
+
