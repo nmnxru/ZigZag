@@ -76,9 +76,9 @@ html {
 
   p {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 1.2rem; 
+    font-size: 1.05rem; 
     font-weight: bold;
-    line-height: 0.79;
+    line-height: 1.4;
     text-align: center;
   }
 
@@ -90,9 +90,9 @@ html {
  
   s1 {
     font-family:'Montserrat', sans-serif;
-    line-height: 1.5;
-    font-weight: bold; 
+    font-size: 1.3rem; 
     text-align: center;
+    line-height: 1.5;
     color: #272727;
   }
 
@@ -492,6 +492,37 @@ s3 {
 }
 
 
+.text-box2 {
+    display: inline-block;  
+    margin: -3vh auto 0 2vw; 
+    padding: 0; 
+    border-top: 0; 
+    width: 22vw; 
+    height: 10vh; 
+    box-sizing: border-box;  
+    float: left; 
+    position: relative;
+}
+
+.icon11 {
+      margin: -3vh 0 0 13vw; 
+      display: inline-block;
+      width: 5vw; 
+      height: 4.5vw; 
+      float: left;  
+      position: relative; 
+}
+
+.icon12 {
+      margin: -3vh 0 0 5vw; 
+      display: inline-block;
+      width: 5vw; 
+      height: 4.5vw; 
+      float: left;  
+      position: relative; 
+}
+
+
 .Every-month-text {
       display: inline-block; 
       padding: 0; 
@@ -499,16 +530,58 @@ s3 {
       box-sizing: border-box;
       float: left; 
       position: relative; 
+      text-align: justify; 
 }
 
-.box {
-    margin: 50px; 
-    width: 50vmin;  
-    height: 30vmin;
+.box1 {
+    margin: 6vh 3vw 0 16vw; 
+    padding: 0 1vw 0.5vh 1vw; 
+    width: 43vmin;  
+    height: 26vmin;
     border-color: #07beb8;  
     border: solid 3px; 
     border-color: #07beb8; 
     align-content: center;
+    box-sizing: border-box; 
+    display: inline-block; 
+    float: left; 
+}
+
+.box2 {
+    margin: 6vh 3vw 0 0; 
+    padding: 0 1vw 0.5vh 1vw;  
+    width: 44vmin;  
+    height: 26vmin;
+    border-color: #07beb8;  
+    border: solid 3px; 
+    border-color: #07beb8; 
+    align-content: center;
+    box-sizing: border-box; 
+    display: inline-block; 
+    float: left; 
+}
+
+.box3 {
+    margin: 6vh 3vw 0 0; 
+    padding: 0 1vw 0.5vh 1vw; 
+    width: 44vmin;  
+    height: 26vmin;
+    border-color: #07beb8;  
+    border: solid 3px; 
+    border-color: #07beb8; 
+    align-content: center;
+    box-sizing: border-box; 
+    display: inline-block; 
+    float: left; 
+}
+
+.text-color {
+    color: #07beb8;
+    margin-top: 2vh; 
+}
+
+.start-now {
+    margin: 10vh 10vw 2vh 20vw; 
 }
 
 @media screen and (min-width:320px) {
