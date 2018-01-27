@@ -672,6 +672,35 @@ s3 {
 }
 }
 
+/* Step 1: Professional History */
+
+.your-professional-history {
+    margin: -3% 0 0 40%; 
+    font-weight: 900;   
+    font-stretch: condensed; 
+}
+
+.upload-your-cv {
+    margin: 1% 0 0 40%; 
+    width: 40%; 
+    text-align: justify; 
+    color: #ff6501; 
+    font-weight: bold; 
+}
+
+.rectangle-input-box {
+    margin: 1% 0 0 40%; 
+    width: 40%;
+    height: 35vh;
+    border-radius: 10px;
+    background-color:  #f4f6f6 ;
+}
+
+upload-cv-btn {
+    margin: 1% 0 0 0; 
+}
+
+
 @media screen and (min-width:320px) {
     html {
        font-size: 2.5vw; 
