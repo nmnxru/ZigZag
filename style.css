@@ -107,9 +107,9 @@ html {
 
 s3 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 1vw;
+    font-size: 1rem;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
     color: #272727;
 }
 
@@ -487,9 +487,9 @@ s3 {
 .how-it-works {
     text-align: center; 
     top: 20%; 
-    transform: translate(0, -300%); 
+    margin: -4% 30% 4% 30%; 
     position: relative;
-    font-weight: bold; 
+    font-weight: 900; 
 }
 
 
@@ -674,30 +674,223 @@ s3 {
 
 /* Step 1: Professional History */
 
-.your-professional-history {
-    margin: -3% 0 0 40%; 
-    font-weight: 900;   
-    font-stretch: condensed; 
+.container10 {
+    display: inline-block; 
+    box-sizing: border-box; 
+    position: relative; 
+    width: 30%; 
+    float: left;
+    margin: 0; 
 }
 
-.upload-your-cv {
-    margin: 1% 0 0 40%; 
-    width: 40%; 
-    text-align: justify; 
-    color: #ff6501; 
-    font-weight: bold; 
+.container11 {
+    display: inline-block; 
+    box-sizing: border-box; 
+    position: relative; 
+    width: 5%; 
+    float: left;
+    margin: 0; 
 }
 
-.rectangle-input-box {
-    margin: 1% 0 0 40%; 
-    width: 40%;
+.container12 {
+    display: inline-block;
+    box-sizing: border-box; 
+    position: relative;
+    float: left; 
+    width: 65%;
+}
+
+.Shape-11 {
+  width: 3%;
+  height: 65vh;
+  background-color: #07beb8;
+}
+
+.elipse-avatar{
+  width: 10rem;
+  height: 10rem;
+  background-color: #cccccc;
+  border-radius: 50%;
+  margin: 0 40% 10% 50%; 
+}
+
+.avatar-img {
+ width: 60%; 
+ height: 60%;
+ margin: 20%;
+ opacity: 0.5; 
+}
+
+.half-elipse {
+  width: 10rem;
+  height: 5rem;
+  opacity: 0.7;
+  background-color: #272727;
+  margin: -26% 40% 0 50%; 
+  border-radius: 0 0 10rem 10rem;
+}
+
+.update-avatar{ 
+   color: white; 
+   margin: auto; 
+   font-weight: bold; 
+   text-decoration: underline; 
+   vertical-align: middle; 
+}
+
+.info-input-box {
+    margin: 6% 40% 0 41%; 
+    width: 50%;
     height: 35vh;
     border-radius: 10px;
     background-color:  #f4f6f6 ;
 }
 
-upload-cv-btn {
-    margin: 1% 0 0 0; 
+.name-input-styling {
+    width: 90%; 
+    height: 5.5vh; 
+    border-radius: 0.3rem;
+    border: solid 0.1rem; 
+    border-color: #D5D8DC; 
+    padding: 1% 3%; 
+    margin: 4% 2% 0 4%; 
+    display: inline-block; 
+    position: relative; 
+    float: left; 
+}
+
+.short-summary-text {
+    font-weight: bold;
+    margin: 1% 1% 0 1%;
+}
+
+.your-professional-history {
+    margin: -10% 0 0 0; 
+    font-weight: 900;   
+    font-stretch: condensed; 
+}
+
+.upload-your-cv {
+    margin: 1% 0 2% 0; 
+    width: 70%; 
+    line-height: 1.5; 
+    text-align: justify; 
+    color: #ff6501; 
+    font-weight: normal; 
+}
+
+.bold-text {
+    font-weight: 900; 
+}
+
+.rectangle-input-box {
+    margin: 0.5% 0 0 0; 
+    width: 70%;
+    height: 40vh;
+    border-radius: 10px;
+    background-color:  #f4f6f6 ;
+}
+
+.upload-cv-btn {
+    margin: -6% 2% 0 3.5%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 1.1rem; 
+    border-radius: 0.4vw;
+    width: 30%;  
+    height: 5vh; 
+    background-color: #07beb8;
+    color: white;  
+    position: relative; 
+}
+
+.form-styling {
+    margin: 2% 1% 0% 1%; 
+}
+
+.pick-up-text{
+    margin: 2% 2% 2% 3.5%; 
+    text-align: left; 
+    font-weight: normal;   
+}
+
+.update-btn {
+    margin: 1% 0 0 1%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    text-decoration: underline; 
+    font-size: 1.1rem; 
+    border-radius: 0.4vw;
+    width: 30%;  
+    height: 5vh; 
+    background-color: #07beb8;
+    color: white;  
+    position: relative; 
+}
+
+.industry-styling {
+    width: 30%; 
+    height: 5.5vh; 
+    border-radius: 0.3rem;
+    border: solid 0.1rem; 
+    border-color: #D5D8DC; 
+    padding: 1% 3%; 
+    margin: 0 0 0 1%; 
+    display: inline-block; 
+    position: relative; 
+    float: left; 
+}
+
+.industry-styling1 {
+    width: 30%; 
+    height: 5.5vh; 
+    border-radius: 0.3rem;
+    border: solid 0.1rem; 
+    border-color: #D5D8DC;  
+    padding: 1% 3%; 
+    margin: 0 0 0 3.5%; 
+    display: inline-block; 
+    position: relative; 
+    float: left; 
+}
+.industry-styling2 {
+    width: 30%; 
+    height: 5.5vh; 
+    border-radius: 0.3rem;
+    border: solid 0.1rem; 
+    border-color: #D5D8DC;
+    padding: 1% 3%; 
+    margin: 1% 0 0 3.5%; 
+    display: inline-block; 
+    position: relative; 
+    float: left; 
+}
+
+.industry-styling3 {
+    width: 30%; 
+    height: 5.5vh; 
+    border-radius: 0.3rem;
+    border: solid 0.1rem; 
+    border-color: #D5D8DC;
+    padding: 1% 3%; 
+    margin: 1% 0 0 1%; 
+    display: inline-block; 
+    position: relative; 
+    float: left; 
+}
+
+.next-step-btn {
+    margin: 1% 2% 0 65%; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 1.1rem; 
+    border-radius: 0.4vw;
+    width: 15%;  
+    height: 5vh; 
+    text-transform: uppercase; 
+    background-color: #666666;
+    color: white;  
+    position: relative; 
 }
 
 

@@ -13,7 +13,9 @@
      <style>
          .jumbotron {
             margin-top: 0;
-            margin-bottom: 0; 
+            margin-bottom: 0;
+            padding: 0; 
+            border: 0; 
             border-radius: 0; 
             background-image:url("navbar picture.jpg");
             background-size:cover; 
@@ -34,39 +36,96 @@
          </div>
        </div>
        <div class="jumbotron jumbotron-fluid">
-         <div class ="container">
-            </div>
          </div>
+      <div> 
      <h3 class="how-it-works">STEP 1</h3>
-      
-      <p2 class="your-professional-history"> YOUR PROFESSIONAL HISTORY</p2>
+     </div>
+ <div class="container-fluid">
+    <div class="container10"> 
+      <div class="elipse-avatar">
+        <img alt="avatar" src="avatar.png" class="avatar-img">
+      </div>
+      <div class="half-elipse">
+         <p class="update-avatar"> update avatar</p>
+      </div>
+      <div class="info-input-box">
+        <form>
+          <div class="form-group">
+            <label class="sr-only" for="Name">Name</label>
+                <input type="text" class="name-input-styling" id="text" placeholder = "Name - prepopulate">
+          </div>
+       </form>
+       <form>
+          <div class="form-group">
+            <label class="sr-only" for="Course">Course</label>
+                <input type="text" class="name-input-styling" id="Course-title" placeholder = "Course title">
+          </div>
+       </form>
+       <div class="short-summary-text">
+        <p> A short summary about yourself (optional)</p>
+       </div>
+      </div>
+    </div>
+    <div class="container11">
+     <div class="Shape-11"></div>
+    </div>
+    <div class="container12">
       <div>
-        <p class="upload-your-cv"> Please upload your CV to help us understand your experiences and skillset. Don't worry if your CV isn't perfect yet - your matches can help with that! </p>
+      <p2 class="your-professional-history"> YOUR PROFESSIONAL HISTORY</p2>
+      </div>
+      <div>
+          <p class="upload-your-cv"> Please <span class="bold-text">upload your CV</span> to help us understand your experiences and skillset. Don't worry if your CV isn't perfect yet - <span class="bold-text">your matches can help </span> with that! </p>
       </div>
     <section class="rectangle-input-box">
-      <form class="form-inline">
+    <div class="col-md-12">
+      <form>
           <div class="form-group">
-            <input type="file" class="form-control" id="browse-file">
+            <label class="sr-only" for="browse-file">Browse file</label>
+                <input type="file" class="form-control form-styling" id="browse-file">
           </div>
       </form>
+    </div>
       <div>
-        <button class="upload-cv-btn"> UPLOAD MY CV</button>
+        <button class="upload-cv-btn"> Upload my CV</button>
       </div>
       <div>
-        <s2> Pick up to 5 industries where you have experience and can offer advice to others looking to get into this area</s2>
+          <p class="pick-up-text"> Pick up to 5 industries where you have experience and can offer advice to others looking to get into this area</p>
       </div> 
-      <div class="col-offset-md-3 col-md-5"> 
-        <select class="form-control">
-          <option>Consulting</option>
-          <option>Banking</option>
-          <option>Environment</option>
-          <option>Education</option>
-          <option>NGOs/Public Sector</option>
-        </select>
-      </div>
+      <form>
+          <div class="form-group">
+            <label class="sr-only" for="browse-file">Browse file</label>
+                <input type="text" class="industry-styling1" id="text" placeholder = "Industry 1">
+          </div>
+      </form>
+      <form>
+          <div class="form-group">
+            <label class="sr-only" for="industry-2">Industry 2</label>
+                <input type="text" class="industry-styling" id="text" placeholder = "Industry 2">
+          </div>
+      </form>
+     <form>
+          <div class="form-group">
+            <label class="sr-only" for="industry-3">Industry 3</label>
+                <input type="text" class="industry-styling" id="text" placeholder = "Industry 3">
+          </div>
+      </form>
+       <form>
+          <div class="form-group">
+            <label class="sr-only" for="industry-4">Industry 4</label>
+                <input type="text" class="industry-styling2" id="text" placeholder = "Industry 4">
+          </div>
+      </form>
+       <form>
+          <div class="form-group">
+            <label class="sr-only" for="industry-5">Industry 5</label>
+                <input type="text" class="industry-styling3" id="text" placeholder = "Industry 5">
+          </div>
+      </form>
+     <button class="update-btn"> Update </button>
     </section>
-      
-      
+    <button class="next-step-btn"> Next step  ></button>
+  </div>
+</div>
   </body>
     
 </html>
