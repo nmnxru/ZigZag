@@ -1016,6 +1016,36 @@ s4 {
       color: #07beb8;
 }
 
+.card2 {
+    margin-bottom: 3%; 
+    background-color: #f4f4f4 ; 
+}
+
+.card-body2{
+    padding: 0 2%; 
+}
+
+.dream-industry {
+    background-color: #cdf2f0; 
+    height: 8vh;
+    padding: 1vh 3%;  
+}
+
+.dream-industry-header {
+    color: #272727; 
+    text-transform: uppercase; 
+    font-weight: 900; 
+    font-family:'Lato', sans-serif;
+    font-size: 1.4rem; 
+    text-decoration: none; 
+    vertical-align: middle; 
+}
+.pick-up-text {
+    font-weight: normal; 
+    text-align: left; 
+    color: #ff6501; 
+}
+
 @media screen and (min-width:320px) {
     html {
        font-size: 2.5vw; 
@@ -1078,4 +1108,6 @@ s4 {
 }
 }
 
+/* color-palette */
 
+/*light-orange: #ffe0cc */ 
